@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  /* background-color: #000; */
+  font-family: 'Ubuntu';
+}
+
+.white-content {
+  background: #e4e4e4;
+  color: #000;
+}
+
+.dark-content {
+  background: #2C3639;
+  color: #fff;
+}

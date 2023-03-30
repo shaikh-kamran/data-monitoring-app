@@ -1,0 +1,22 @@
+.header{
+    position: fixed;
+    width: calc(100% - 20px);
+    background-color: #000;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 99;
+    .routes{
+        display: flex;
+        flex-direction: row;
+        .route{
+            margin-left: 10px;
+            cursor: pointer;
+            text-decoration: none;
+            color: black;
+        }
+    }
+}

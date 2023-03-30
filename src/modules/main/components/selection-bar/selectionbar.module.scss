@@ -1,0 +1,30 @@
+.selectionbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding: 5px;
+    .selecteddevices{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .selecteddevice{
+            padding: 0 10px;
+            margin-right: 5px;
+            border: 1px solid #888;
+            border-radius: 5px;
+            background-color:#ccc;
+        }
+    }
+    .time{
+        background-color: #fff;
+        margin-left: 10px;
+    }
+    .date{
+        height: 25px;
+        margin-left: 10px;
+    }
+    .device{
+        height: 30px;
+    }
+}
