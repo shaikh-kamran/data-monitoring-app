@@ -1,4 +1,4 @@
-import express from 'express';
+import * as express from 'express';
 const routes = express.Router({ mergeParams: true });
 import { readings } from './readings/index.js';
 import { device } from './device/index.js';

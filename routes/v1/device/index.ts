@@ -1,4 +1,4 @@
-import express from 'express';
+import * as express from 'express';
 const routes = express.Router({ mergeParams: true });
 import { list } from './list.js';
 
