@@ -1,10 +1,10 @@
-import * as express from 'express';
+import express from 'express';
 import { Express } from 'express';
 import { v1Routes } from './routes/v1/index.js';
 //Middleware to auth all APIs
 import { middleware } from './middleware';
 import { mongodb } from './mongodb/index.js';
-import * as cors from 'cors';
+import cors from 'cors';
 
 const myapp = async () => {
 
