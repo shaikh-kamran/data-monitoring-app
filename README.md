@@ -13,9 +13,10 @@ MongoDB: 4
 ## Installation
 
 ```bash
-git clone <app>
-cd <app>
+git clone https://github.com/shaikh-kamran/data-monitoring-app.git
+cd data-monitoring-app
 npm i
+npm install -g ts-node
 npm run dev #frontend React
 npm start #backend Node 
 ```

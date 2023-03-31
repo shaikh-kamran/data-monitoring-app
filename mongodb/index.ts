@@ -1,5 +1,5 @@
 import { connect } from 'mongoose';
-const mongourl = "mongodb://localhost:27017/praanio";
+const mongourl = "mongodb://kamran:l2pt0p@127.0.0.1:5678/praanio";
 import { ReadingModel } from './reading.js';
 
 export const mongodb = async () => {
